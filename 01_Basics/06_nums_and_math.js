@@ -16,6 +16,7 @@
 
 //     console.log(Math);
 //     console.log(Math.abs(-5));
+    console.log(Math.sqrt());
 //     console.log(Math.round(4.8));
 //     console.log(Math.max(2,4,6,8,10,12));
 console.log((Math.random()*10) + 1)
