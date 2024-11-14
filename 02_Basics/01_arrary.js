@@ -1,6 +1,7 @@
 //  Array
 
 // let myArr = ["physics","Bio","Math","Chemistery","English"]
+
  // const myCourses = ["JavaScript", "Python"]
 // const myArr2 = new Array(1,2,3,4,5)
 // access
@@ -55,20 +56,35 @@
 
 // Multi Dimentional Array
 
-let myArrPages = [
-    ["physics",434],
-    ["Bio",458],
-    ["Math",852],
-    ["Chemistery",785],
-    ["English",452]
-]
+// let myArrPages = [
+//     ["physics",434],
+//     ["Bio",458],
+//     ["Math",852],
+//     ["Chemistery",785],
+//     ["English",452]
+// ]
 // console.log(myArrPages);
 // console.log(myArrPages.join("_"));
 // console.log(myArrPages[1][1]);
 
 // Loop with Array
+let book = ["physics", "Bio", "Math", "Chemistery", "English"]
 
+// let booklength = book.length;
 
+// for(i=0; i < booklength; i++){
+//     console.log(`Element ${i} is ${book[i]}\n`);
+    
+// }
+book.forEach(myFunciton);
+
+function myFunciton(params) {
+    console.log(params);
+    
+    
+}
+    
+    
 
 
 
