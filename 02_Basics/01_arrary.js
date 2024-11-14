@@ -1,7 +1,7 @@
 //  Array
 
-const myArr = ["A","B","C","D","E"]
-// const myCourses = ["JavaScript", "Python"]
+// let myArr = ["physics","Bio","Math","Chemistery","English"]
+ // const myCourses = ["JavaScript", "Python"]
 // const myArr2 = new Array(1,2,3,4,5)
 // access
 // console.log(myArr[2]);
@@ -32,16 +32,41 @@ const myArr = ["A","B","C","D","E"]
 
 // Slice and Splice
 
-console.log("A", myArr);
-const myn1 = myArr.slice(1, 3)
-console.log(myn1);
+// console.log("A", myArr);
+// const myn1 = myArr.slice(1, 3)
+// console.log(myn1);
 
-console.log("B", myArr);
-const myn2 = myArr.splice(1, 3)
-console.log("C",myArr);
+// console.log("B", myArr);
+// const myn2 = myArr.splice(1, 3)
+// console.log("C",myArr);
+// // myArr =[]
+// myArr.length = 0;
+// console.log(myArr);
+// let isArr = "physics"
+// console.log(Array.isArray(myArr));
+// console.log(Array.isArray(isArr));
+// let word = "Hi there this Mohsin"
+// console.log(myArr.join('.'));
+// let myArr2 = ["urdu", "Hindi"]
+// let myArr3 = ["russian", "german"]
+// let newArr = myArr2.concat(myArr, myArr3)
+// console.log(myArr2.concat(myArr));
+// console.log(newArr);
 
-console.log(myn2);
+// Multi Dimentional Array
 
+let myArrPages = [
+    ["physics",434],
+    ["Bio",458],
+    ["Math",852],
+    ["Chemistery",785],
+    ["English",452]
+]
+// console.log(myArrPages);
+// console.log(myArrPages.join("_"));
+// console.log(myArrPages[1][1]);
+
+// Loop with Array
 
 
 
