@@ -1,5 +1,11 @@
 // Singleton
 // object.constructor
+// const oldUser = new Object();
+const oldUser = {}
+oldUser.id = "123xyz"
+oldUser.name = "khalid"
+oldUser.isLogedIn = false
+// console.log(oldUser.name);
 
 // const newUser = new Object()
 // newUser.id =  "khalid123"
@@ -32,15 +38,41 @@
 
 // combine objects
 
-const obj1 = {1:"a",2:"b",3:"c"}
-const obj2 = {4:"d",5:"e",5:"f"}
-const obj3 = {6:"d",7:"e",8:"f"}
+const obj1 = {1:"a",2:"b",3:"c",4:"d"}
+const obj2 = {5:"e",6:"f",7:"g",8:"h"}
+const obj3 = {9:"i",10:"j",11:"k",12:"l"}
 
-// const obj3 = {obj1, obj2}
-// const obj4 = Object.assign({},obj1,obj2,obj3)
-const obj4 = {...obj1,...obj2,...obj3}
-// console.log(obj4)
+// const obj4 = Object.assign({},obj1, obj2, obj3)
+const obj4 = {...obj1, ...obj2, ...obj3}
+// console.log(obj4);
 
 
 // Array of Objects
+
+const users = [
+    {
+        id: 1,
+        email: "abc@gmail.com"
+    },
+    {
+        id: 2,
+        email: "abc@gmail.com"
+    },
+    {
+        id: 3,
+        email: "abc@gmail.com"
+    },
+]
+// users[3].email
+
+// console.log(oldUser);
+ console.log(Object.keys(oldUser)); //Most important
+// console.log(Object.values(oldUser));
+// console.log(Object.entries(oldUser));
+
+console.log(oldUser.hasOwnProperty("name"));
+
+
+
+
 
