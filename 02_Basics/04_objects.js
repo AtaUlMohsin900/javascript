@@ -72,6 +72,16 @@ const users = [
 
 console.log(oldUser.hasOwnProperty("name"));
 
+// Object Destructuring
+
+const course = {
+    courseName : "JavaScript",
+    coursePrice: "1050",
+    courseTeacher: "Mohsin"
+}
+
+const {courseTeacher: ct} = course
+console.log(ct)
 
 
 
