@@ -32,7 +32,7 @@ return val1+val2
 const result = twoValueAdd(5,6);
 // console.log("Result is:",result);
 
-function isPresent(attence){
+function isPresent(attence = "student"){
     // if(attence === undefined){
        if(!attence){
         console.log("Please enter the student Name");
@@ -42,5 +42,5 @@ function isPresent(attence){
 }
 
 // console.log(isPresent("Mohsin"));
-console.log(isPresent());
+console.log(isPresent("khalid"));
 
