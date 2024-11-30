@@ -24,9 +24,13 @@ function addTwoStrings(string1, string2){
 }
 // addTwoStrings("Ataul", "Mohsin")
 
-function twoValue(value1, value2){
-    console.log(value1+value2);
-    
+function twoValueAdd(val1, val2){
+  let result = val1 + val2;
+  console.log(5,7);
+  console.log(typeof(result));
+  
+  
+  return result
 }
-const answer = twoValue(8,8)
-console.log("Our Answer is:",answer);
+const result = twoValueAdd(5,6);
+console.log("Result is:",result);
