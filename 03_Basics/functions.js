@@ -25,12 +25,16 @@ function addTwoStrings(string1, string2){
 // addTwoStrings("Ataul", "Mohsin")
 
 function twoValueAdd(val1, val2){
-  let result = val1 + val2;
-  console.log(5,7);
-  console.log(typeof(result));
-  
-  
-  return result
+//   let result = val1 + val2;
+//   return result
+return val1+val2
 }
 const result = twoValueAdd(5,6);
-console.log("Result is:",result);
+// console.log("Result is:",result);
+
+
+function logInMessage(userName){
+    return `${userName} is just loged in`
+
+}
+console.log(logInMessage("khalid"));
