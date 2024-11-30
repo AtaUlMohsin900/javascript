@@ -32,9 +32,15 @@ return val1+val2
 const result = twoValueAdd(5,6);
 // console.log("Result is:",result);
 
-
-function logInMessage(userName){
-    return `${userName} is just loged in`
-
+function isPresent(attence){
+    // if(attence === undefined){
+       if(!attence){
+        console.log("Please enter the student Name");
+        return
+    }
+    return `Today ${attence} is present.`
 }
-console.log(logInMessage("khalid"));
+
+// console.log(isPresent("Mohsin"));
+console.log(isPresent());
+
