@@ -42,5 +42,42 @@ function isPresent(attence = "student"){
 }
 
 // console.log(isPresent("Mohsin"));
-console.log(isPresent("khalid"));
+// console.log(isPresent("khalid"));
+
+function countCartPrice(price1, price2, ...price3){
+    return price3
+
+}
+// console.log(countCartPrice(400, 600, 800, 1000));
+
+// Functions with Objects
+
+const product ={
+    productName: "T-shirt",
+    price:"850"
+
+}
+
+function productObject(anyObject){
+    console.log(`product Name is: ${anyObject.productName} and product price is: ${anyObject.price} Rs.`);
+    
+
+}
+// productObject(product)
+
+productObject({
+    productName:"Jacket",
+    price: 1580
+})
+
+// Fuctions with Arrays
+
+const priceArray =[1800, 800, 700]
+
+function valArray(newVal){
+    return newVal[2]
+
+}
+// console.log(valArray(priceArray));
+console.log(valArray([400,500,600,700]));
 
