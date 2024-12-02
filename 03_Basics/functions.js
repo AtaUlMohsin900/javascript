@@ -23,7 +23,7 @@ function addTwoStrings(string1, string2){
     
 }
 addTwoStrings(4,"b")
-console.log(typeof(addTwoStrings(4)));
+// console.log(typeof(addTwoStrings(4)));
 
 
 // addTwoStrings("Ataul", "Mohsin")
@@ -52,6 +52,7 @@ function countCartPrice(price1, price2, ...price3){
     return price3
 
 }
+
 // console.log(countCartPrice(400, 600, 800, 1000));
 
 // Functions with Objects
