@@ -22,6 +22,10 @@ function addTwoStrings(string1, string2){
     console.log(string1+string2);
     
 }
+addTwoStrings(4,"b")
+console.log(typeof(addTwoStrings(4)));
+
+
 // addTwoStrings("Ataul", "Mohsin")
 
 function twoValueAdd(val1, val2){
