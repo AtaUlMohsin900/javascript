@@ -30,7 +30,7 @@ if(true){
     const firstname = "Ataul"
     if(firstname === "Ataul"){
         const secondname = " Mohsin"
-        console.log(firstname + secondname);
+        // console.log(firstname + secondname);
         
     }
     // console.log(secondname);
@@ -39,4 +39,20 @@ if(true){
     
 }
 //    console.log(firstname);
+
+
+// console.log(addNumber(5));
+   function addNumber(num){
+      return num + 1
+   }
+//    addNumber(5)
+// console.log(addNumber(5));
+
+  
+// console.log(addnum(5));
+   const addnum = function(value){
+    return value + 2
+
+   }
+   console.log(addnum(5));
    
