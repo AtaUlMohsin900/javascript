@@ -32,7 +32,7 @@ if(true){
         console.log(username+ newuser);
         
     }
-    console.log(newuser)
+    // console.log(newuser)
 }
 
-console.log(new);
+// console.log(newuser);
