@@ -29,11 +29,13 @@ if(true){
 if(true){
     const firstname = "Ataul"
     if(firstname === "Ataul"){
-        const seconduser = " Mohsin"
-        console.log(firstname + seconduser);
+        const secondname = " Mohsin"
+        console.log(firstname + secondname);
         
     }
-    // console.log(secondUser);
+    // console.log(secondname);
+    // console.log(firstname + secondname);
+    
     
 }
 //    console.log(firstname);
