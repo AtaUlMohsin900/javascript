@@ -34,3 +34,5 @@ if(true){
     }
     console.log(newuser)
 }
+
+console.log(new);
