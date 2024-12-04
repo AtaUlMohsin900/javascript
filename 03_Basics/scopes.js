@@ -13,29 +13,28 @@ if(true){
 
 // Nested Scope
 
-function first(){
-    const parent = "khalid"
-    console.log(parent)
-    function second(){
-        const child = "uzair"
-        console.log(child);
-        
-    }
-    first()
-}
-
-// second()
-
-
-
-// if(true){
-//     const username = "khalid"
-//     if(username === "khalid"){
-//         const newuser = " Malik"
-//         console.log(username+ newuser);
+// function first(){
+//     const parent = "khalid"
+//     console.log(parent)
+//     function second(){
+//         const child = "uzair"
+//         console.log(child);
         
 //     }
-//     // console.log(newuser)
+//     // second()
 // }
+//     first()
 
-// console.log(newuser);
+
+if(true){
+    const firstname = "Ataul"
+    if(firstname === "Ataul"){
+        const seconduser = " Mohsin"
+        console.log(firstname + seconduser);
+        
+    }
+    // console.log(secondUser);
+    
+}
+//    console.log(firstname);
+   
