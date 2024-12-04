@@ -40,7 +40,7 @@ if(true){
 }
 //    console.log(firstname);
 
-
+// hoisting
 // console.log(addNumber(5));
    function addNumber(num){
       return num + 1
