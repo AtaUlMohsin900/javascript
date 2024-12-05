@@ -1,10 +1,11 @@
-const student = {
-    studentName: "Mohsin",
-    rollNubmer: 945,
-    greetingMessage: function(){
-        console.log(`${this.studentName}, Welcome to Student Portel`)
-
+const client = {
+    clientName: "khlaid",
+    clientId: "784",
+    message4client: function(){
+        console.log(`${this.clientName}, You are successfully join our team`);
         
     }
+
 }
-student.greetingMessage()
+
+client.message4client()
