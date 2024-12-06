@@ -19,4 +19,11 @@ newFun();
     console.log(`Database is connected using iife_arrow function`);
     
 
-} )()
+} )();
+
+// another example
+(  iifeVariable = (value) =>{
+    console.log(`Database is connected ${value}`);
+    
+
+} )("khalid")
