@@ -9,13 +9,13 @@ function newFun(){
 newFun();
 
 // iife function
-(function iifeFun(){
+(function iifeFun(){    //named iife
     console.log(`Database is connected now`)
 
 })();
 
 // iife with arrow function
-(  iifeArrow = () =>{
+(  iifeArrow = () =>{   //simple iife
     console.log(`Database is connected using iife_arrow function`);
     
 
