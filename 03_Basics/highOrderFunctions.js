@@ -3,10 +3,9 @@ function add(a, b, callback){
     let answer = a+b;
     callback(answer)
 }
-function showAnswer(add){
-    console.log(add);
+function showAnswer(answer){
+    console.log(answer);
     
 }
 
-
-console.log(add(2,4,showAnswer));
+add(2,4,showAnswer)
