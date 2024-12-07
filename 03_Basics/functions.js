@@ -9,18 +9,27 @@ console.log("E")
 console.log("F")
 
 }
+function addNumbers(){
+    let sum =0;
+    for(let i = 0; i < arguments.length; i++){
+        sum = sum + arguments[i]
+        
+    }
+    return sum
+}
+console.log(addNumbers(125,458,68));
 
 
 // alphabits()
 
 function twoValue(value1, value2){
-    console.log(value1+value2);
+    // console.log(value1+value2);
     
 }
 // twoValue(8,null)
 
 function addTwoStrings(string1, string2){
-    console.log(string1+string2);
+    // console.log(string1+string2);
     
 }
 addTwoStrings(4,"b")
@@ -40,7 +49,7 @@ const result = twoValueAdd(5,6);
 function isPresent(attence = "student"){
     // if(attence === undefined){
        if(!attence){
-        console.log("Please enter the student Name");
+        // console.log("Please enter the student Name");
         return
     }
     return `Today ${attence} is present.`
@@ -65,7 +74,7 @@ const product ={
 }
 
 function productObject(anyObject){
-    console.log(`product Name is: ${anyObject.productName} and product price is: ${anyObject.price} Rs.`);
+    // console.log(`product Name is: ${anyObject.productName} and product price is: ${anyObject.price} Rs.`);
     
 
 }
@@ -85,5 +94,5 @@ function valArray(newVal){
 
 }
 // console.log(valArray(priceArray));
-console.log(valArray([400,500,600,700]));
+// console.log(valArray([400,500,600,700]));
 
