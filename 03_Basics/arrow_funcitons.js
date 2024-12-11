@@ -1,9 +1,11 @@
+// Arrow funcitons from Modren JavaScript(ES6)
 const arrowSum = (a, b) =>{
 
-console.log(a + b);
+return 4 + 5;
 
 }
-arrowSum(4, 5)
+console.log(arrowSum(4, 5));
+
 
 
 const client = {
