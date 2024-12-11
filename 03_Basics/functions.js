@@ -52,7 +52,7 @@ addTwoStrings(4,"b")
 // console.log(typeof(addTwoStrings(4)));
 
 //Value Return in Functions
-function addNums(x, y){
+function addNums(x, y){  // (x, y) parameters act as local variables and use only in block scope.    
     sum = x + y;
     return  sum;       // retun keyword only returns One Value from a function.and we never any console or get output after return.
 } 

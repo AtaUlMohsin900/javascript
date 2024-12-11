@@ -1,12 +1,18 @@
+const arrowSum = (a, b) =>{
+
+console.log(a + b);
+
+}
+arrowSum(4, 5)
+
+
 const client = {
     clientName: "khlaid",
     clientId: "784",
     message4client: function(){
-        console.log(`${this.clientName}, You are successfully join our team`);
+        // console.log(`${this.clientName}, You are successfully join our team`);
         
     }
-    
-
 }
 
 // client.message4client()
@@ -40,6 +46,6 @@ let addnum3 = (num1, num2) => (num1+num2)
 
 let addnum4 = (num1, num2) => ({username:"Mohsin"})
 
-     console.log(addnum4(4,6))
+    //  console.log(addnum4(4,6))
 
 
