@@ -27,6 +27,14 @@ function myfunction(msg){  //parameter input
 }
 myfunction("Awsome JavaScript Course") // function calling and passing the arguments
 
+// Multiple parameters input
+
+function myfunction1(msg1, newone){  //two parameters input
+    console.log(msg1+ newone)
+}
+myfunction1("Awsome JavaScript Course"," Join US") // function calling and passing the arguments
+
+
 
 // alphabits()
 
