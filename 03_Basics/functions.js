@@ -51,6 +51,17 @@ function addTwoStrings(string1, string2){
 addTwoStrings(4,"b")
 // console.log(typeof(addTwoStrings(4)));
 
+//Value Return in Functions
+function addNums(x, y){
+    sum = x + y;
+    return  sum;       // retun keyword only returns One Value from a function.
+} 
+console.log(addNums(2,3)); //or
+let value = addNums(4,5);
+console.log(value);
+
+
+
 
 // addTwoStrings("Ataul", "Mohsin")
 
