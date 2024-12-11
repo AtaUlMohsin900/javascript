@@ -54,7 +54,7 @@ addTwoStrings(4,"b")
 //Value Return in Functions
 function addNums(x, y){
     sum = x + y;
-    return  sum;       // retun keyword only returns One Value from a function.
+    return  sum;       // retun keyword only returns One Value from a function.and we never any console or get output after return.
 } 
 console.log(addNums(2,3)); //or
 let value = addNums(4,5);
