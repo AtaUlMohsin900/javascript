@@ -21,6 +21,12 @@ function addNumbers(){
 }
 console.log(addNumbers(125,458,68));
 
+// Parameter and Arguments
+function myfunction(msg){  //parameter input
+    console.log(msg)
+}
+myfunction("Awsome JavaScript Course") // function calling and passing the arguments
+
 
 // alphabits()
 
