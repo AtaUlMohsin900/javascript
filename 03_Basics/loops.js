@@ -5,9 +5,19 @@
 // 2. running length of loop is second statement
 // 3. updatation statement
 
+// for(let i = 0; i<=10; i++){
+//     console.log(i);
+
+    
+// }
+// console.log("Loop Ended");
+
+let sum = 0;
 for(let i = 0; i<=10; i++){
-    console.log(i);
+    sum = sum + i;
 
     
 }
-console.log("Loop Ended");
+console.log("Total:", sum);
+console.log("Loop End");
+
