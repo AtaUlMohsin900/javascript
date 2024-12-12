@@ -12,12 +12,22 @@
 // }
 // console.log("Loop Ended");
 
-let sum = 0;
-for(let i = 0; i<=10; i++){
-    sum = sum + i;
+// let sum = 0;
+// for(let i = 0; i<=10; i++){
+//     sum = sum + i;
+
+    
+// }
+// console.log("Total:", sum);
+// console.log("Loop End");
+
+// create a Table using for loop
+
+for(let i = 1; i<=10; i++){
+    console.log(`2 x ${i} = ${i*2}`);
 
     
 }
-console.log("Total:", sum);
-console.log("Loop End");
+console.log("Table Complete");
+
 
