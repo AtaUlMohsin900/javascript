@@ -36,15 +36,25 @@
 
 let username = 0;
 while (username <= 10){
-    console.log("khalid");
+    // console.log("khalid");
     username++
     
 }
 
 // create a Table using while loop
-let i = 1;
-while (i <= 10){
-    console.log(`2 x ${i} = ${i*2}`);
-    i++
+// let i = 1;
+// while (i <= 10){
+    // console.log(`2 x ${i} = ${i*2}`);
+    // i++
     
-}
+// }
+
+// Do While Loop
+
+let i = 20;
+
+do {
+    console.log("khalid");
+    i++;
+    
+}while(i<=10);
