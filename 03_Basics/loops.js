@@ -51,10 +51,18 @@ while (username <= 10){
 
 // Do While Loop
 
-let i = 20;
+// let i = 20;
+
+// do {
+//     console.log("khalid");
+//     i++;
+    
+// }while(i<=10)
+// Table with do while loop
+let i = 1;
 
 do {
-    console.log("khalid");
+    console.log(`2 x ${i} = ${2*i}`);
     i++;
     
-}while(i<=10);
+}while(i<=10)
