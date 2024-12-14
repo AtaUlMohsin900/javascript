@@ -61,7 +61,7 @@ while (username <= 10){
 // Table with do while loop
 // let i = 1;
 
-// for Of Loop
+// for Of Loop remember that it use only Strings and Arrays not for Object
 
 let userName = "AtaulMohsin"
 let length = 1;
