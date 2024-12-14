@@ -53,16 +53,20 @@ while (username <= 10){
 
 // let i = 20;
 
-// do {
-//     console.log("khalid");
-//     i++;
+//  do {
+//      console.log("khalid");
+//      i++;
     
-// }while(i<=10)
+//  }while(i<=10)
 // Table with do while loop
-let i = 1;
+// let i = 1;
 
-do {
-    console.log(`2 x ${i} = ${2*i}`);
-    i++;
-    
-}while(i<=10)
+// for Of Loop
+
+let userName = "AtaulMohsin"
+let length = 1;
+for(let i of userName){
+    console.log(`${length} = ${i}`)
+    length++
+
+}
