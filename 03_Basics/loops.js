@@ -26,6 +26,24 @@
 // for(let i = 1; i<=10; i++){
 //     console.log(`2 x ${i} = ${i*2}`);
 
+
+//Even numbers
+// for(let numbers = 1; numbers <=100; numbers++){ 
+//     if(numbers %2 === 0){
+//         console.log(numbers);
+        
+//     }
+// }
+
+// Odd numbers
+for(let numbers = 1; numbers <=100; numbers++){ 
+    if(numbers %2 !== 0){
+        console.log(numbers);
+        
+    }
+}
+
+
     
 // }
 // console.log("Table Complete");
@@ -72,13 +90,13 @@ while (username <= 10){
 // }
 
 // for in loop           (it works with Object) it return only keys
-let user1 ={
-    name: "Yasir",
-    age:  36,
-    isLogedIn: true
+// let user1 ={
+//     name: "Yasir",
+//     age:  36,
+//     isLogedIn: true
 
-}
-for (let i in user1){
-    console.log(user1[i]);
+// }
+// for (let i in user1){
+//     console.log(user1[i]);
     
-}
+// }
