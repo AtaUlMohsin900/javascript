@@ -79,6 +79,6 @@ let user1 ={
 
 }
 for (let i in user1){
-    console.log(i);
+    console.log(user1[i]);
     
 }
