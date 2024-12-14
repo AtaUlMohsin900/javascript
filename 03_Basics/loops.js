@@ -63,10 +63,22 @@ while (username <= 10){
 
 // for Of Loop remember that it use only Strings and Arrays not for Object
 
-let userName = "AtaulMohsin"
-let length = 1;
-for(let i of userName){
-    console.log(`${length} = ${i}`)
-    length++
+// let userName = "AtaulMohsin"
+// let length = 1;
+// for(let i of userName){
+//     console.log(`${length} = ${i}`)
+//     length++
 
+// }
+
+// for in loop           (it works with Object) it return only keys
+let user1 ={
+    name: "Yasir",
+    age:  36,
+    isLogedIn: true
+
+}
+for (let i in user1){
+    console.log(i);
+    
 }
