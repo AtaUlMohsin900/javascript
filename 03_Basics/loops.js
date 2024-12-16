@@ -36,12 +36,12 @@
 // }
 
 // Odd numbers
-for(let numbers = 1; numbers <=100; numbers++){ 
-    if(numbers %2 !== 0){
-        console.log(numbers);
+// for(let numbers = 1; numbers <=100; numbers++){ 
+//     if(numbers %2 !== 0){
+//         console.log(numbers);
         
-    }
-}
+//     }
+// }
 
 
     
@@ -52,12 +52,12 @@ for(let numbers = 1; numbers <=100; numbers++){
 
 // While loop in JavaScript
 
-let username = 0;
-while (username <= 10){
-    // console.log("khalid");
-    username++
+// let username = 0;
+// while (username <= 10){
+//     // console.log("khalid");
+//     username++
     
-}
+// }
 
 // create a Table using while loop
 // let i = 1;
@@ -100,3 +100,11 @@ while (username <= 10){
 //     console.log(user1[i]);
     
 // }
+let requireInput = 25;
+let userInput = prompt("Enter your Answer: ");
+while(userInput != requireInput){
+ userInput = prompt("You Entered wrong answer try again ");
+
+
+}
+prompt("Greate you Entered right answer");
