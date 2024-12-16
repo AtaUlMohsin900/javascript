@@ -107,4 +107,4 @@ while(userInput != requireInput){
 
 
 }
-prompt("Greate you Entered right answer");
+alert("Greate you Entered right answer")
