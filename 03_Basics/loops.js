@@ -145,10 +145,22 @@ map.set("CSS","Cascading Style Sheet")
 // console.log(map);
 
 for (const [key,value] of map){
-    console.log(`${key} means: ${value}`);
+    // console.log(`${key} means: ${value}`);
     
 }
 
+// ***************** FOR IN LOOP *****************
+
+const books = {
+    first: "DevOps",
+    second: "DSA",
+    third: "Python"
+}
+
+for (key in books){
+    console.log(`${key} course is: ${books[key]}`);
+    
+}
 
 
 
