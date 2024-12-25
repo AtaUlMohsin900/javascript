@@ -74,7 +74,7 @@ while (num <= 100){
 let studentName = ["Amir","Fawaod","yasir","Anjum","Nasir","Akmal"]
 let newArr = 0;
 while(newArr < studentName.length){
-    console.log(`Name of student is: ${studentName[newArr]}`);
+    // console.log(`Name of student is: ${studentName[newArr]}`);
     newArr++
     
 
@@ -82,7 +82,7 @@ while(newArr < studentName.length){
 
 
 // ****************** Do While Loop *******************
-
+// Example 1
 // let i = 20;
 
 //  do {
@@ -92,8 +92,19 @@ while(newArr < studentName.length){
 //  }while(i<=10)
 // Table with do while loop
 // let i = 1;
+// Example 2
 
-// for Of Loop remember that it use only Strings and Arrays not for Object
+let score = 11;
+do{
+    console.log(`score is ${score}`);
+    score++
+
+}while(
+    score<=10
+)
+
+
+//***************FOR OF LOOP************** remember that it use only Strings and Arrays not for Object
 
 // let userName = "AtaulMohsin"
 // let length = 1;
@@ -103,14 +114,14 @@ while(newArr < studentName.length){
 
 // }
 
-// for in loop           (it works with Object) it return only keys
+// *************** for in loop ************** (it works with Object) it return only keys
 // let user1 ={
 //     name: "Yasir",
 //     age:  36,
 //     isLogedIn: true
 
 // }
-// for (let i in user1){
+//  for (let i in user1){
 //     console.log(user1[i]);
     
 // }
@@ -120,5 +131,5 @@ while(newArr < studentName.length){
 //  userInput = prompt("You Entered wrong answer try again ");
 
 
-// }
+//  }
 // alert("Greate you Entered right answer")
