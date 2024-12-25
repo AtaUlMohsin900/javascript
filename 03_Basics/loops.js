@@ -68,8 +68,16 @@
 // }
 let  num = 0;
 while (num <= 100){
-    console.log(`value is :${num}`)
+    // console.log(`value is :${num}`)
     num = num+1
+}
+let studentName = ["Amir","Fawaod","yasir","Anjum","Nasir","Akmal"]
+let newArr = 0;
+while(newArr < studentName.length){
+    console.log(`Name of student is: ${studentName[newArr]}`);
+    newArr++
+    
+
 }
 
 
