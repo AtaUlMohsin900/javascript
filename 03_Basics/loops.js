@@ -66,6 +66,12 @@
     // i++
     
 // }
+let  num = 0;
+while (num <= 100){
+    console.log(`value is :${num}`)
+    num = num+1
+}
+
 
 // ****************** Do While Loop *******************
 
@@ -100,11 +106,11 @@
 //     console.log(user1[i]);
     
 // }
-let requireInput = 25;
-let userInput = prompt("Enter your Answer: ");
-while(userInput != requireInput){
- userInput = prompt("You Entered wrong answer try again ");
+// let requireInput = 25;
+// let userInput = prompt("Enter your Answer: ");
+// while(userInput != requireInput){
+//  userInput = prompt("You Entered wrong answer try again ");
 
 
-}
-alert("Greate you Entered right answer")
+// }
+// alert("Greate you Entered right answer")
