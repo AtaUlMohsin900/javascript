@@ -141,8 +141,13 @@ map.set("JS","Java Script")
 map.set("PY","Python")
 map.set("HTML","Hyper Text Markup Language")
 map.set("CSS","Cascading Style Sheet")
-map.set("JS","abc")
-console.log(map);
+// map.set("JS","abc")
+// console.log(map);
+
+for (const [key,value] of map){
+    console.log(`${key} means: ${value}`);
+    
+}
 
 
 
