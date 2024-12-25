@@ -96,7 +96,7 @@ while(newArr < studentName.length){
 
 let score = 11;
 do{
-    console.log(`score is ${score}`);
+    // console.log(`score is ${score}`);
     score++
 
 }while(
@@ -133,3 +133,16 @@ do{
 
 //  }
 // alert("Greate you Entered right answer")
+
+// ***************** MAP ********************
+
+const map = new Map()
+map.set("JS","Java Script")
+map.set("PY","Python")
+map.set("HTML","Hyper Text Markup Language")
+map.set("CSS","Cascading Style Sheet")
+console.log(map);
+
+
+
+
