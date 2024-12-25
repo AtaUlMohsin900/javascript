@@ -141,6 +141,7 @@ map.set("JS","Java Script")
 map.set("PY","Python")
 map.set("HTML","Hyper Text Markup Language")
 map.set("CSS","Cascading Style Sheet")
+map.set("JS","abc")
 console.log(map);
 
 
