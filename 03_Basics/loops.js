@@ -50,7 +50,7 @@
 
 // Do'nt use any infinite loop
 
-// While loop in JavaScript
+//************** */ While loop in JavaScript ***************
 
 // let username = 0;
 // while (username <= 10){
@@ -67,7 +67,7 @@
     
 // }
 
-// Do While Loop
+// ****************** Do While Loop *******************
 
 // let i = 20;
 
