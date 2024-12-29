@@ -34,4 +34,4 @@ let result3 = addNum(num1,num2); // undefined
 
 let result4 = addNum(10,7); // undefined
 
-// 2st cycle (Execution phase) completed
+// 2nd cycle (Execution phase) completed
