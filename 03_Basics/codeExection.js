@@ -49,8 +49,8 @@ function addNum(num1,num2){  // Defination
     let answer = num1+num2;
     return answer
 }
-let result3 = addNum(num1,num2); // undefined
+let result3 = addNum(num1,num2); 
 
-let result4 = addNum(10,7); // undefined
+let result4 = addNum(10,7); 
 
 // 2nd cycle (Execution phase) completed
