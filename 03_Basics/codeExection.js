@@ -1,13 +1,32 @@
-// Javascript Execution Context
-// code{} ->   Global Execution Context (Global Enviroment)   placed in "this" and in browser value should be in window object.
-// code+{} ->  Function Exectution Context
-// code+{} ->  Eval Exectution Context
-//  code+{} -> code in two phases
-// 1- Memory creation phase
-// 2- Execution phase
+/* Javascript Execution Context
+The execution context refers to the environment in which code is evaluated and executed. It determines the scope and the 
+   values of this during code execution. There are three main types of execution contexts:
 
+Global Execution Context (GEC)-> This is the default context where global code (not inside any function) runs. In browsers, 
+the global object is window, and in Node.js, it’s global.
+code{} ->   Global Execution Context (Global Enviroment)   placed in "this" and in browser value should be in window object.
 
-// Example
+Function Execution Context (FEC)-> Created when a function is invoked. Each function call gets its own execution context,
+ which includes:
+
+A variable object (containing variables, parameters, and functions).
+A scope chain.
+The value of this.
+code{} ->  Function Exectution Context
+
+Eval Execution Context-> Created when code is executed within the eval() function. It is rarely used due to security and
+ performance concerns.
+
+The JavaScript engine manages execution contexts using a call stack, adding a new context for each function call and removing 
+it after execution completes.
+
+  code{} -> code in two phases
+ 1- Memory creation phase
+ 2- Execution phase
+*/
+
+// Examples
+
 // Momory phase
 let num1 = 5;
 let num2 = 7;
