@@ -58,6 +58,7 @@ let result4 = addNum(10,7); // -> New Execution Context( New variable enviroment
 // CallStack
 // go to chrome browser open inspect and go to source ->create one file abc.paste the following code
 // js check call stack and run this code
+// press enter button check out one by one.
 
 function first(){
     console.log("first");
