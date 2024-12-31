@@ -54,3 +54,24 @@ let result3 = addNum(num1,num2);
 let result4 = addNum(10,7); // -> New Execution Context( New variable enviroment + Execution thread) it should be deleted after execution.
 
 // 2nd cycle (Execution phase) completed
+
+// CallStack
+// go to chrome browser open inspect and go to source ->create one file abc.paste the following code
+// js check call stack and run this code
+
+function first(){
+    console.log("first");
+    
+
+}
+function second(){
+    console.log("second");
+    
+}
+function third(){
+    console.log("third");
+    
+}
+first()
+second()
+third()
