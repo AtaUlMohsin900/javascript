@@ -51,6 +51,6 @@ function addNum(num1,num2){  // Defination
 }
 let result3 = addNum(num1,num2); 
 
-let result4 = addNum(10,7); 
+let result4 = addNum(10,7); // -> New Execution Context( New variable enviroment + Execution thread) it should be deleted after execution.
 
 // 2nd cycle (Execution phase) completed
