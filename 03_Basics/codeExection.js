@@ -61,12 +61,12 @@ let result4 = addNum(10,7); // -> New Execution Context( New variable enviroment
 
 function first(){
     console.log("first");
-    
+    second()
 
 }
 function second(){
     console.log("second");
-    
+    third()
 }
 function third(){
     console.log("third");
