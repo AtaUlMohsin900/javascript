@@ -24,3 +24,11 @@ function third(){
 first()
 second()
 third()
+/* The call stack during execution:
+first() is pushed onto the stack.
+second() is pushed onto the stack by first().
+console.log runs and completes, so second() is popped off.
+Then first() is popped off.
+If the stack becomes too deep (e.g., infinite recursion),
+ a stack overflow error occurs. 
+The call stack is crucial for debugging and understanding execution flow.*/
