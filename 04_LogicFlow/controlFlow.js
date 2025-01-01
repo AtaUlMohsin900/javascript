@@ -4,3 +4,9 @@ using conditional statements like `if`, `else if`, and `else` to execute specifi
  Loops like `for`, `while`, and `do...while` allow repeating tasks until a certain condition is met. Additionally,
   keywords like `break`, `continue`, and `return` provide finer control over the execution flow, while `try...catch`
    handles exceptions to manage errors gracefully.*/
+
+   const isLogedIn = true;
+   if(2 == "2"){
+        console.log("Yor are now Logedin");
+        
+   }
