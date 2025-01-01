@@ -13,4 +13,11 @@ function add(a, b, newfun){
 // add(2,4, value =>console.log(value))
 // add(100, 20, (res)=>console.log(res))
 let anotherFun = add(2,4,()=>{})
-anotherFun()
+// anotherFun()
+const language = ["javascript","python","Rust","CPP","Rubi"]
+
+for(const key in language){
+    console.log(language[key]);
+    
+}
+
