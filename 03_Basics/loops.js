@@ -151,25 +151,28 @@ for (const [key,value] of map){
 
 // ***************** FOR IN LOOP *****************
 
-const books = {
-    first: "DevOps",
-    second: "DSA",
-    third: "Python"
-}
+// const books = {
+//     first: "DevOps",
+//     second: "DSA",
+//     third: "Python"
+// }
 
-for (key in books){
-    console.log(`${key} course is: ${books[key]}`);
+// for (key in books){
+//     console.log(`${key} course is: ${books[key]}`);
     
-}
+// }
 
-// For Each Loop
+// // For Each Loop
 
-const language = ["javascript","Python","Rust","Java","Rubi"]
+// const language = ["javascript","Python","Rust","Java","Rubi"]
 
-const value = language.forEach((item)=>{
-    console.log(item);
+// const value = language.forEach((item)=>{
+//     console.log(item);
     
-})
-console.log(value);
+// })
+// console.log(value);
 
+const nums = [1,2,3,4,5,6,7,8,9,10]
+
+nums.filter((item)=> item > 4)
 
