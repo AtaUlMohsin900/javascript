@@ -174,6 +174,8 @@ for (const [key,value] of map){
 
 const nums = [1,2,3,4,5,6,7,8,9,10]
 
-const newNums = nums.filter((item)=> item > 4)
+const newNums = nums.filter((item)=> {
+    return nams > 4
+})
 
 console.log(newNums);
