@@ -162,5 +162,14 @@ for (key in books){
     
 }
 
+// For Each Loop
+
+const language = ["javascript","Python","Rust","Java","Rubi"]
+
+const value = language.forEach((item)=>{
+    console.log(item);
+    
+})
+console.log(value);
 
 
