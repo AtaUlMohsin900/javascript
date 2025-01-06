@@ -185,7 +185,7 @@ const nums = [1,2,3,4,5,6,7,8,9,10]
 //     }
 // })
 // console.log(newNums);
-const book =[
+const books =[
     {title:"Book one",genre:"function",publish_year:1980,edition:2004},
     {title:"Book two",genre:"History",publish_year:1981,edition:2005},
     {title:"Book three",genre:"Science",publish_year:1982,edition:2006},
@@ -195,7 +195,7 @@ const book =[
     {title:"Book seven",genre:"education",publish_year:1986,edition:2010},
     {title:"Book eight",genre:"History",publish_year:1987,edition:2011},
     {title:"Book nine",genre:"Science",publish_year:1988,edition:2012},
-    {title:"Book ten",genre:"Language",publish_year:1989,edition:2013},
+    {title:"Book ten",genre:"language",publish_year:1989,edition:2013},
     {title:"Book eleven",genre:"Jeography",publish_year:1990,edition:2014},
     {title:"Book twelve",genre:"Finance",publish_year:1991,edition:2015},
     {title:"Book thrteen",genre:"Art",publish_year:1992,edition:2016},
@@ -203,3 +203,5 @@ const book =[
 
 
 ]
+const userbooks = books.filter((item)=>item.genre === language)
+console.log(userbooks);
