@@ -195,13 +195,15 @@ const books =[
     {title:"Book seven",genre:"education",publish_year:1986,edition:2010},
     {title:"Book eight",genre:"History",publish_year:1987,edition:2011},
     {title:"Book nine",genre:"Science",publish_year:1988,edition:2012},
-    {title:"Book ten",genre:"language",publish_year:1989,edition:2013},
+    {title:"Book ten",genre:"language", publish_year:1989,edition:2013},
     {title:"Book eleven",genre:"Jeography",publish_year:1990,edition:2014},
-    {title:"Book twelve",genre:"Finance",publish_year:1991,edition:2015},
+    {title:"Book twelve",genre:"Finance",  publish_year:1991,edition:2015},
     {title:"Book thrteen",genre:"Art",publish_year:1992,edition:2016},
     {title:"Book forteen",genre:"function",publish_year:1993,edition:2017},
 
 
 ]
-const userbooks = books.filter((item) => item.genre === "language")
+let userbooks = books.filter((item) => item.genre === "language")
+userbooks = books.filter((item) => item.publish_year >= 2000)
+
 console.log(userbooks);
