@@ -205,7 +205,7 @@ const books =[
 
 let userbooks = books.filter((item) => item.genre === "language")
  userbooks = books.filter((item) => {
-    return item.publish_year >= 1990
+    return item.publish_year >= 1990 && item.genre ==="History"
  })
 
 console.log(userbooks);
