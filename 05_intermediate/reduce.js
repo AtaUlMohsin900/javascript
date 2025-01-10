@@ -15,3 +15,24 @@ const numsTotal = myNumbers.reduce((accumalater, currentVal)=>{
 
 },0)
 console.log(numsTotal);
+
+// Example
+const books = [
+    {
+        bookName: "Javascript",
+        price: 1256
+    },
+    {
+        bookName: "Python",
+        price: 1800
+    },
+    {
+        bookName: "Java",
+        price: 1300
+    },
+    {
+        bookName: "Rust",
+        price: 1000
+    },
+    
+]
