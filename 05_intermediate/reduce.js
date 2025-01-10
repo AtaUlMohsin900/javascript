@@ -36,3 +36,7 @@ const books = [
     },
     
 ]
+books.reduce((item){
+    return 
+
+},0)
