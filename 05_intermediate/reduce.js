@@ -9,5 +9,9 @@ const myNumbers = [1, 2, 3];
 
 // Example with arrow funciton
 const numsTotal = myNumbers.reduce((accumalater, currentVal)=>{
+    console.log(`Accumalater value is:${accumalater} and Current value is:${currentVal}`);
+    
+    return accumalater + currentVal
 
 },0)
+console.log(numsTotal);
