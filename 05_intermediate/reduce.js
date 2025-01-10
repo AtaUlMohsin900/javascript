@@ -36,7 +36,8 @@ const books = [
     },
     
 ]
-books.reduce((item){
-    return 
+const newbooks =books.reduce((accumalater,item){
+    return accumalater + item.price
 
 },0)
+console.log(newbooks);
