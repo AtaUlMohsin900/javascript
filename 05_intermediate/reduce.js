@@ -36,7 +36,7 @@ const books = [
     },
     
 ]
-const newbooks =books.reduce((accumalater,item){
+const newbooks =books.reduce((accumalater,item)=>{
     return accumalater + item.price
 
 },0)
