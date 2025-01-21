@@ -3,13 +3,31 @@
   In JavaScript, closures are automatically formed whenever a function is created, 
  capturing its surrounding state at the time of creation.*/
 
-function lexical(){
-    const name = "khalid"
-    function newFun(){
-        console.log(name);
-        
-    }
-    return newFun;
+// function lexical(){
+//     const name = "khalid"
+//     function newFun(){
+//         console.log(name);
+
+//     }
+//     return newFun;
+// }
+// const surrounding = lexical();
+//   surrounding();
+
+const courseName = document.getElementById("nam");
+const btn = document.getElementById("mybtn");
+function increaseTextSize(size) {
+  function changeSize() {
+    courseName.style.fontSize = `${size}px`;
+  }
+  return changeSize;
 }
-const surrounding = lexical();
-  surrounding();
+
+const size12 = increaseTextSize(12);
+const size20 = increaseTextSize(20);
+const size30 = increaseTextSize(30);
+const size32 = increaseTextSize(32);
+const size42 = increaseTextSize(42);
+
+
+btn.addEventListener('click', () => size42)
