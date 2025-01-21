@@ -9,7 +9,7 @@ function lexical(){
         console.log(name);
         
     }
-    newFun();
+    return newFun;
 }
-lexical();
-  
+const surrounding = lexical();
+  surrounding();
