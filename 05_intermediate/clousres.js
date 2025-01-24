@@ -31,3 +31,5 @@ const size42 = increaseTextSize(42);
 
 
 btn.addEventListener('click', () => size42)
+
+

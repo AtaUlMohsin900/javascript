@@ -1,0 +1,23 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "javascript",
+  "main": "app.js",
+  "scripts": {
+    "start": "node cloures.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "js"
+  },
+  "keywords": [
+    "node",
+    "javascript"
+  ],
+  "author": "ataulmohisn",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2"
+  }
+}
