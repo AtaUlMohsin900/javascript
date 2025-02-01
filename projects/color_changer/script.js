@@ -1,2 +1,9 @@
 const buttons = document.querySelectorAll('.button');
-console.log(buttons);
+const body = document.querySeclector("body")
+
+
+buttons.forEach((button)=>{
+    console.log(button);
+    
+
+})
