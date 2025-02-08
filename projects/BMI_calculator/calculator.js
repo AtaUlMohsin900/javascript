@@ -9,10 +9,14 @@ form.addEventListener('submit', function(e){
 
     if(height === '' || height < 0 || isNaN(height)){
         results.innerHTML = `please write the valid height value ${height}`;
+    }else if(weight  === '' || height < 0 || isNaN(weight )){
+        results.innerHTML = `please write the valid weight  value ${weight }`;
 
+    }else {
+        (weight / ((height*height)/10000)).toFixed(2)
     }
 
-    results.innerHTML =  `${height}`;
-
+    // results.innerHTML =  `${height}`;
+    
 
 })
