@@ -12,10 +12,7 @@ form.addEventListener('submit', function(e){
 
     }
 
-    if(weight === '' || height < 0 || isNaN(height)){
-        results.innerHTML = `please write the valid height value ${weight}`;
-
-    }
+    results.innerHTML =  `${height}`;
 
 
 })
