@@ -1,1 +1,1 @@
-console.log(Math.random() *10)
+console.log(parseInt(Math.random() *100 +1))
