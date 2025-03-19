@@ -56,14 +56,13 @@ function checkGuess(guess){
 
     }else if(guess > randomNumber){
         displayMessage(`You loss try again`)
-
-
 }
+
 
 function CleanupGuess(guess){
 
     userInput.value =  ''
-    guesSlot.innerHTML +=`${guess}`
+    guesSlot.innerHTML +=`${guess},  `
     numGuess++;
     remaining.innerHTML += `${11 - numGuess}`
 }
@@ -74,10 +73,17 @@ function    displayMessage(message){
 }
 
 function endGame(){
-
+    userInput.value =  ''
+    userInput.setAttribute('disabled','')
+    p.classList.add('button')
+    p.innerHTML= `<h2 id="newGame">start new game</h2>`
+    startOver.appendChild(p)
+    playGame = false
+    newGame()
 }
 
 function newGame(){
 
 }
 
+}
