@@ -70,6 +70,7 @@ function CleanupGuess(guess){
 
 function    displayMessage(message){
 
+    loworhigh.innerHTML = `<h3>${message}</h3>`
 }
 
 function endGame(){
