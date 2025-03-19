@@ -48,6 +48,15 @@ function validateGuess(guess){
 }
 
 function checkGuess(guess){
+    if(guess === randomNumber){
+        displayMessage(`Your Guess is correct`)
+        endGame()
+    }else if(guess < randomNumber){
+        displayMessage(`You loss try again`)
+
+    }else if(guess > randomNumber){
+        displayMessage(`You loss try again`)
+
 
 }
 
