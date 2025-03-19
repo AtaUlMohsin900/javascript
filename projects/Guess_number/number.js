@@ -60,8 +60,12 @@ function checkGuess(guess){
 
 }
 
-function displayGuess(guess){
+function CleanupGuess(guess){
 
+    userInput.value =  ''
+    guesSlot.innerHTML +=`${guess}`
+    numGuess++;
+    remaining.innerHTML += `${11 - numGuess}`
 }
 
 function    displayMessage(message){
