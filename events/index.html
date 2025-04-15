@@ -55,9 +55,9 @@
 
     }, true)
     document.getElementById("google").addEventListener('click', function(e){
+        e.preventDefault()
         console.log("Google clicked");
         
-        e.defaultPrevented()
 
     }, false)
 
