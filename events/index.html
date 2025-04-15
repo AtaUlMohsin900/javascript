@@ -54,6 +54,12 @@
         
 
     }, true)
+    document.getElementById("google").addEventListener('click', function(e){
+        console.log("Google clicked");
+        
+        e.defaultPrevented()
+
+    }, false)
 
   </script>
 
