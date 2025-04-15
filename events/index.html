@@ -39,7 +39,7 @@
   <script>
     document.getElementById('Michal').addEventListener('click', function(e){
       console.log(e);
-      
+    //   false is event propugation
     }, false);
     // defaultPrevented, type, timestamp, target, toElement, srcElement, currentTarget, altKey, ctrlKey
 
@@ -57,9 +57,12 @@
     document.getElementById("google").addEventListener('click', function(e){
         e.preventDefault()
         console.log("Google clicked");
+    }, false)
+    document.querySelector("#khalid").addEventListener('click', function(e){
+        console.log(e.target);
         
 
-    }, false)
+    }, false);
 
   </script>
 
