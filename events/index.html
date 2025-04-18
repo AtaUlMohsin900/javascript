@@ -9,6 +9,7 @@
 </head>
 
 <body>
+<<<<<<< HEAD
         <ul>
                 <li><img width="200px" id="ataulmohsin" src="https://www.pexels.com/photo/31405026/" alt="image">
                 </li>
@@ -37,14 +38,84 @@
                                 alt="image1">
                 </li> -->
                 <li><a href="https://google.com" id="google">Google</a></li>
+=======
+  <ul>
+    <li><img width="200px" id="Akbar"
+        src="https://www.pexels.com/photo/majestic-elk-in-yellowstone-national-park-landscape-31181029/" alt="image">
+    </li>
+    <li><img width="200px" id="khalid"
+        src="https://www.pexels.com/photo/majestic-elk-in-yellowstone-national-park-landscape-31181029/" alt="image">
+    </li>
+    <li><img width="200px" id="Akmal"
+        src="https://www.pexels.com/photo/majestic-elk-in-yellowstone-national-park-landscape-31181029/" alt="image">
+    </li>
+    <li><img width="200px" id="Amjed"
+        src="https://www.pexels.com/photo/majestic-elk-in-yellowstone-national-park-landscape-31181029/" alt="image">
+    </li>
+    <li><img width="200px" id="Maqbool"
+        src="https://www.pexels.com/photo/majestic-elk-in-yellowstone-national-park-landscape-31181029/" alt="image">
+    </li>
+    <li><img width="200px" id="Shakil"
+        src="https://www.pexels.com/photo/majestic-elk-in-yellowstone-national-park-landscape-31181029/" alt="image">
+    </li>
+    <li><img width="200px" id="Bashir Ali"
+        src="https://www.pexels.com/photo/fisherman-on-pebble-beach-with-mountain-view-30936382/" alt="image1">
+    </li>
+    <li><a style="color: aliceblue;" href="https://google.com" id="google">Google</a></li>
+</li>
+<li><a style="color: aliceblue;" href="https://google.com" id="google">Google</a></li>
+>>>>>>> 07c5adeacea6b0a0a8a78330ea37b6047dbf9d29
 
         </ul>
 
+<<<<<<< HEAD
         <script>
                 document.getElementById('ataulmohsin').addEventListener('click', function () {
                         alert('Michal opened')
                 })
         </script>
+=======
+  <script>
+    document.getElementById('Michal').addEventListener('click', function(e){
+      console.log(e);
+    //   false is event propugation
+    }, false);
+    // defaultPrevented, type, timestamp, target, toElement, srcElement, currentTarget, altKey, ctrlKey
+
+    document.getElementById('Akber').addEventListener('click', function(e){
+        console.log("Your change has appear");
+        
+
+    }, true)
+    document.getElementById('Maqbool').addEventListener('click', function(e){
+        console.log("Your change has appear");
+        e.stopPropagation()
+        
+
+    }, true)
+    document.getElementById("google").addEventListener('click', function(e){
+        e.preventDefault()
+        console.log("Google clicked");
+    }, false)
+    document.querySelector("#khalid").addEventListener('click', function(e){
+        // console.log(e.target.parentNode);
+        console.log(e.target.tagName);
+        if(e.target.tagName === "IMG"){
+            console.log(e.target.id);
+            
+
+        }
+
+
+
+
+        let removeIt = e.target.parentNode
+        // removeIt.remove()
+        removeIt.parentNode.removeChild(removeIt)
+    }, false);
+
+  </script>
+>>>>>>> 07c5adeacea6b0a0a8a78330ea37b6047dbf9d29
 
 </body>
 
