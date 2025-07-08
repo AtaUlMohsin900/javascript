@@ -22,9 +22,11 @@ const users = {
 }
         let name ='constructor';
         // name comes from input text
-        if(users[name]) {
-            console.log('BOSS');
-            
+        // if(users[name]) {
+        //     console.log('BOSS');
+           // let's fix it
+        if(Object.hasOwn(users, name)) {
+
         }else{
                 console.log('NOT BOSS');
                 
