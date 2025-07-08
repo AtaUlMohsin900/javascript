@@ -13,3 +13,20 @@ if (0.1 + 0.2 === 0.3) {
     console.log(false);
 
 }
+
+// 2 Question find the problem (interview in Walmart)
+
+const users = {
+    personOne: {},
+    Mohsin: {}
+}
+        let name ='constructor';
+        // name comes from input text
+        if(users[name]) {
+            console.log('BOSS');
+            
+        }else{
+                console.log('NOT BOSS');
+                
+        }
+ 
