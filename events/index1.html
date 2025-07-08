@@ -14,7 +14,21 @@
  <button id="Stop">Stop</button>
 </body>
 <script>
-   setTimeout()
+  //  const newFun = function(){
+  //   console.log("Hello world!");
+  //  }
+  //  setTimeout(newFun, 3000)
+  const textChange = function(){
+    document.querySelector('h1').innerHTML='Best Web Development'
+  }
+  // setTimeout(textChange, 2000)
+  
+  document.querySelector('#stop').addEventListener('click', function(){
+    clearTimeout(textChange)
+    console.log('stoped');
+    
+
+  })
   </script>
 
 </html>
