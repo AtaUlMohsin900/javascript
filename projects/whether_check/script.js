@@ -5,11 +5,14 @@ const input = document.getElementById('city-input');
 // scroll down and change the option no to yes under the value option.
 // copy the call section link and paste it on URL bar.
 // http://api.weatherapi.com/v1/current.json?key=fe6126bd61c94f5289d145747230909&q=London&aqi=yes
+
 async function getData(cityName) {
-  const promise = fetch(`http://api.weatherapi.com/v1/current.json?key=fe6126bd61c94f5289d145747230909&q=${cityName}&aqi=yes`)
+  const promise = await fetch(`http://api.weatherapi.com/v1/current.json?key=fe6126bd61c94f5289d145747230909&q=${cityName}&aqi=yes`);
   return await promise.json()
 }
-button.addEventListener('click', ()=> {
-   console.log(input.value);
-
+button.addEventListener('click', async ()=> {
+   const value = input.value
+   const result = await getData(value);
+   console.log(result);
+   
 });
