@@ -1,5 +1,8 @@
 const button = document.getElementById('search_button');
 const input = document.getElementById('city-input');
+const cityName = document.getElementById('city-name');
+const cityTime = document.getElementById('city-time')
+const cityTemp = document.getElementById('city-temp');
 
 // Go to Free api like https://www.weatherapi.com/ copy the api key and opnen another side or api explorer and paste it here which page required.
 // scroll down and change the option no to yes under the value option.
