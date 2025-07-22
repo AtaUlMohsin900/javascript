@@ -31,4 +31,20 @@ const users = {
                 console.log('NOT BOSS');
                 
         }
- 
+
+// Find how many vowels from Array
+
+cost str = "Hey Java Script is Amazing";
+const vowels = ['a','e','i','o','u']
+function totalVowels(data) { // it return the number of vowels
+    let count = 0;                //count of v
+
+
+data.toLowerCase().split('').forEach((ch)=>{
+    vowels.includes(ch) && count++;
+})
+return count;
+    
+}
+const totalNumOfVowels = totalVowels(str)
+console.log(totalNumOfVowels);
