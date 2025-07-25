@@ -1,6 +1,6 @@
 
 .parent{
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -12,4 +12,9 @@
      border: 2px solid red;
     height:500px;
     width: 20pc;
+}
+.number{
+    margin-left:5px;
+    width:80vw;
+
 }
