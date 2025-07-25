@@ -1,20 +1,52 @@
 
 .parent{
-    /* width: 100vw; */
+    width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
+#numInput {
+    background-color: rgb(41, 39, 39);
+    color: white;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-top:  25px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+}
+    
+
 .calculator{
     margin-top:15px;
     margin-right: 15px;
      border: 2px solid red;
+     border-radius: 25px;
+     background-color:black;
     height:500px;
-    width: 20pc;
+    width: 400px;
 }
 .number{
+    background-color: black;
     margin-left:5px;
     width:80vw;
 
+}
+
+.col-button {
+    border: 1px solid grey;
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top:40px;
+    margin-right:7px;
+    margin-left: 20px;
+
+
+}
+.col-button:hover{
+    background-color: rgb(151, 136, 133);
 }
