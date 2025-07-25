@@ -1,11 +1,15 @@
 
 .parent{
     width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .calculator{
+    margin-top:15px;
+    margin-right: 15px;
      border: 2px solid red;
-    height:300px;
-    width: 150pc;
+    height:500px;
+    width: 20pc;
 }
