@@ -1,5 +1,11 @@
-.caculator{
-    border: 2px solid red;
+
+.parent{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.calculator{
+     border: 2px solid red;
     height:300px;
     width: 150pc;
 }
