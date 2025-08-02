@@ -1,0 +1,4 @@
+function buttonHandler(el){
+    console.log(el.target)
+
+}
