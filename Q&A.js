@@ -34,7 +34,7 @@ const users = {
 
 // Find how many vowels from Array
 
-cost str = "Hey Java Script is Amazing";
+const str = "Hey Java Script is Amazing";
 const vowels = ['a','e','i','o','u']
 function totalVowels(data) { // it return the number of vowels
     let count = 0;                //count of v
@@ -48,3 +48,19 @@ return count;
 }
 const totalNumOfVowels = totalVowels(str)
 console.log(totalNumOfVowels);
+
+// What is output in log when we use constructor and normal function
+
+function userName(fname, lname){
+
+  this.firstName = fname;
+  this.lastName = lname;
+}
+const fullName = new userName('Sam', 'John');
+const aName = userName('Sam', 'John')
+
+console.log(fullName);
+console.log(aName);
+
+// Output->  userName { firstName: 'Ata', lastName: 'khalid' }
+// output->  undefined
