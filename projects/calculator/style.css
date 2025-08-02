@@ -1,52 +1,60 @@
+body {
+    background-color: rgb(248, 247, 245);
+}
 
-.parent{
-    width: 100vw;
-    height: 100vh;
+input {
+    margin-top: 25px;
+    margin-left: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 13px;
+    padding-top: 13px;
+    border-radius: 7px;
+    font-weight: 900;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1)
+}
+
+.calContainer {
+    margin-top: 15px;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    
-}
-#numInput {
-    background-color: rgb(41, 39, 39);
-    color: white;
-    border-radius: 5px;
-    margin-left: 25px;
-    margin-top:  25px;
-    padding-right: 150px;
-    padding-bottom: 20px;
-}
-    
-
-.calculator{
-    margin-top:15px;
-    margin-right: 15px;
-     border: 2px solid red;
-     border-radius: 25px;
-     background-color:black;
-    height:500px;
-    width: 400px;
-}
-.number{
-    background-color: black;
-    margin-left:5px;
-    width:80vw;
-
+    height: 100vh;
 }
 
-.col-button {
-    border: 1px solid grey;
-    background-color: tomato;
-    color: white;
+
+.calculator {
+
+    border: 2px solid rgb(66, 48, 48);
+    background-color: rgb(240, 17, 17);
+    padding-left: 38px;
+    border-radius: 15px;
+    height: 60vh;
+    width: 80vw;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8)
+}
+
+.cal-buttons {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: rgb(49, 57, 50);
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 10px;
     text-align: center;
     cursor: pointer;
-    border-radius: 5px;
-    margin-top:40px;
-    margin-right:7px;
-    margin-left: 20px;
-
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1)
+        /* subtle shadow effect */
+    ;
 
 }
-.col-button:hover{
-    background-color: rgb(151, 136, 133);
+
+.cal-buttons:hover {
+    background-color: rgb(63, 64, 52);
+    color: rgb(229, 7, 7);
+    font-size: x-large;
+    font-weight: 500;
 }
