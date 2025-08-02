@@ -1,4 +1,4 @@
 function buttonHandler(el){
-    console.log(el.target)
+    console.log(el)
 
 }
