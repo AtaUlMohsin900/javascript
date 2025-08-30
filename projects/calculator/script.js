@@ -8,3 +8,8 @@ function buttonHandler(el){
     result.value = eval.exp
 
 }
+
+function reset(){
+    input.value = '';
+    result.value = '';
+}
