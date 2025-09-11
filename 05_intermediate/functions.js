@@ -4,3 +4,11 @@ function sayHello(){
     
 }
 sayHello()
+
+// Arrow Function
+
+const sayBay=()=>{
+    console.log('Bay Bay');
+    
+}
+sayBay()
