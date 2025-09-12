@@ -60,7 +60,8 @@ const  newObj = {
 newObj.newFunc()
 
 // we can easy access the object property using this keyword in Normal function and it refer only inner funciton when execute.
-// But when we use this keyword in arrow funciton then output shows undefined.
+// But when we use the this keyword in an arrow function, the output shows the global object (or undefined in strict mode) 
+// because arrow functions inherit the this value from their lexical (surrounding) scope, not from how they're called.
 const  arrObj = {
     id: 1,
     arrFunc: () =>{
