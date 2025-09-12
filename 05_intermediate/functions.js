@@ -28,5 +28,11 @@ console.log( add(2,6));
 // Arguments & Keywords
 // Argument works only on Normal Functions
 
+const addNumbers =()=>{
+    console.log(arg);
+    
+}
+addNumbers(1,2,3,4,5,6,7,8,9)
+
 
 
