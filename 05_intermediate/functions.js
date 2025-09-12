@@ -46,3 +46,26 @@ const hello =()=>{
     console.log('Hello Javascript');
     
 }
+
+// **************************************
+
+// 'this' Keyword
+const  newObj = {
+    id: 1,
+    newFunc(){
+      console.log('ID is:+ this.id');
+      
+    }
+}
+newObj.newFunc()
+
+// we can easy access the object property using this keyword in Normal function and it refer only inner funciton when execute.
+// But when we use this keyword in arrow funciton then output shows undefined.
+const  arrObj = {
+    id: 1,
+    arrFunc: () =>{
+      console.log('ID is:+ this.id');
+      
+    }
+}
+arrObj.arrFunc()
