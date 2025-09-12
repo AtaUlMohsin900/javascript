@@ -23,16 +23,26 @@ const add=(a,b)=>{
 // const add = (a,b) => a+b; only for one line statement.
 
 console.log( add(2,6));
-// ++++++++++++++++++++++++++++++++++++++
+// **************************************
 
 // Arguments & Keywords
 // Argument works only on Normal Functions
+// we can use spread operator as argument
 
-const addNumbers =()=>{
+const addNumbers =(...arg)=>{
     console.log(arg);
     
 }
 addNumbers(1,2,3,4,5,6,7,8,9)
 
+// **************************************
 
+// Hoisting
+// Hoisting is only avilible in Normal Function.
+// it dos'nt work because we access before this function.
 
+hello()
+const hello =()=>{
+    console.log('Hello Javascript');
+    
+}
